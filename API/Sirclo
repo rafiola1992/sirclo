@@ -1,0 +1,277 @@
+id: 9GcRUafq8E-nIi6OXMKWAw
+projectId: 3VElAjN5-EiSoIq1amvAUA
+projectName: Sirclo
+created: 2022-05-07T17:10:03.9530471Z
+protocol: 1
+tests:
+- id: 1Pbcd6j24kSTkFzTCfPSDg
+  name: Sirclo
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-07T17:08:52.0000000
+  modificationDate: 2022-05-07T17:09:36.0000000
+  settings:
+    automationAssistant: true
+    appId: HLPK00pB5k6V4US6NjvZ7g
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: HLPK00pB5k6V4US6NjvZ7g
+    name: Sirclo Test
+    url: https://qa-interview.srcli.xyz/
+    platform: Web
+  steps:
+  - id: F60Xm0pstUS6eH3MLsoqRA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://qa-interview.srcli.xyz/login
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: username=root&password=root123
+      direction: Input
+    - name: format
+      value: application/x-www-form-urlencoded
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    - name: schemaPath
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6p0u3Pto0EWj7lRdUR_ejQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DiRlYudmtUGjjOgGCGzRIA
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: body
+      value: ''
+      direction: Input
+    - name: format
+      value: ''
+      direction: Input
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: status
+      value: ''
+      direction: Output
+    - name: uri
+      value: https://qa-interview.srcli.xyz/data
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _muUUfCjrUWiU8BanwEZCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3pyX37O89EenPV590WXfPQ
+      source: Store
+      addonId: Ujn6E4VbkEa6QU2XChYMyQ
+    parameterMaps:
+    - name: uri
+      value: https://qa-interview.srcli.xyz/data
+      direction: Input
+    - name: query
+      value: ''
+      direction: Input
+    - name: headers
+      value: ''
+      direction: Input
+    - name: body
+      value: username=root&password=root123
+      direction: Input
+    - name: format
+      value: application/x-www-form-urlencoded
+      direction: Input
+    - name: expectedStatus
+      value: ''
+      direction: Input
+    - name: jsonPath
+      value: ''
+      direction: Input
+    - name: response
+      value: ''
+      direction: Output
+    - name: status
+      value: ''
+      direction: Output
+    - name: ignoreUntrustedCertificate
+      value: ''
+      direction: Input
+    - name: responseHeaders
+      value: ''
+      direction: Output
+    - name: jsonResponse
+      value: ''
+      direction: Output
+    - name: schemaPath
+      value: ''
+      direction: Input
+    - name: createFile
+      value: ''
+      direction: Input
+    - name: schemaValidationOutputFilePath
+      value: ''
+      direction: Input
+    - name: schemaValidationOutput
+      value: ''
+      direction: Output
+    - name: headerDelimiter
+      value: ''
+      direction: Input
+    - name: filePath
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://qa-interview.srcli.xyz/
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons:
+- id: Ujn6E4VbkEa6QU2XChYMyQ
+  source: Store
+  version: 1.6.10
+  actions:
+  - id: 3pyX37O89EenPV590WXfPQ
+    name: HTTP POST Request
+    description: POST {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.PostAction
+  - id: DiRlYudmtUGjjOgGCGzRIA
+    name: HTTP GET Request
+    description: GET {{uri}}?{{query}}
+    className: io.testproject.addon.restfulapiclient.actions.GetAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 57049348D63450C0C1534B4F42E978E4294D0D97EA54E3B9E46042611553E0B0
