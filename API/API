@@ -1,7 +1,7 @@
-id: GtbSSQ4R6k29I80IvSTWxA
+id: ZjrgsEDNYUGHNuCyNA-VgQ
 projectId: 3VElAjN5-EiSoIq1amvAUA
 projectName: Sirclo
-created: 2022-05-07T17:22:10.0474634Z
+created: 2022-05-07T21:29:50.8879121Z
 protocol: 1
 tests:
 - id: oCpPcCMvcUmvYKZz7olpCQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-05-07T10:19:02.0000000
-  modificationDate: 2022-05-07T17:21:52.0000000
+  modificationDate: 2022-05-07T17:24:33.0000000
   settings:
     automationAssistant: true
     appId: bmW3Opbpfke5mcYYqO1twQ
@@ -220,13 +220,13 @@ tests:
       value: https://qa-interview.srcli.xyz/data
       direction: Input
     - name: query
-      value: ''
+      value: username=root&password=root123
       direction: Input
     - name: headers
       value: ''
       direction: Input
     - name: body
-      value: username=root&password=root123
+      value: ''
       direction: Input
     - name: format
       value: application/x-www-form-urlencoded
