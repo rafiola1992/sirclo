@@ -1,0 +1,255 @@
+id: CMNltSHqzkWsAORmj4OeFQ
+projectId: 3VElAjN5-EiSoIq1amvAUA
+projectName: Sirclo
+created: 2022-05-07T11:58:23.6557461Z
+protocol: 1
+tests:
+- id: Uv3pZFd1dE-eiczkepw3VA
+  name: Login
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-07T11:47:20.0000000
+  modificationDate: 2022-05-07T11:48:07.0000000
+  settings:
+    automationAssistant: true
+    appId: bmW3Opbpfke5mcYYqO1twQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: bmW3Opbpfke5mcYYqO1twQ
+    name: Env sirclo
+    url: https://qa-interview.srcli.xyz/login
+    platform: Web
+  steps:
+  - id: yjZErGUgLUGMtKAdjHQ8Gw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EOW4R09GO0qr2YGXMn9GYw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: p497eJlgcEKiXQazRcUygA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: P-fzxVh6zU2JmRJkHksk-g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: p497eJlgcEKiXQazRcUygA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: root
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lswrfftLBkG51Lsw4B5kGg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: yLPWTOsj7EWgAe5-K032Wg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xPGzcKS3gkuA_BJ7Dzd1Vw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: yLPWTOsj7EWgAe5-K032Wg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: root123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QcDua9X1oE-6hELqU8ptPQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 8C_Kc-8CxE2XN2rVhSaFkw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: z4SBfVFP2Uip2pEXIIO_1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 3B15EnEctE6u01avYm4_Aw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Welcome!
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://qa-interview.srcli.xyz/login
+    type: Input
+auxTests: []
+elements:
+- id: p497eJlgcEKiXQazRcUygA
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 0
+  - name: XPATH
+    value: //input[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/input[1]
+    priority: 2
+- id: yLPWTOsj7EWgAe5-K032Wg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/input[2]
+    priority: 2
+- id: 8C_Kc-8CxE2XN2rVhSaFkw
+  name: INPUT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/form/input[3]
+    priority: 1
+- id: 3B15EnEctE6u01avYm4_Aw
+  name: Welcome!
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //h1[. = 'Welcome!
+
+      ']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/h1
+    priority: 2
+projectParameters: []
+addons: []
